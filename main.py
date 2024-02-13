@@ -159,11 +159,11 @@
 #     print(i)
 
 
+my_name = "Haseeb"
+for i in my_name:
+    print(i)
 
 
 
 
 
-
-
-ksfhej;ldkw;sl
