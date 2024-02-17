@@ -159,11 +159,56 @@
 #     print(i)
 
 
-my_name = "Haseeb"
-for i in my_name:
-    print(i)
+# my_name = "Haseeb"
+# for i in my_name:
+#     print(i)
 
 
+# number = {1, 2, 3, 4, 5}
+# print(type(number))
 
 
+# Days : set[str] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}    
+# print(Days)    
+# print(type(Days))    
+# print("looping through the set elements ... ")    
+# for i in Days:    
+#     print(i)  
 
+
+# squares = [1, 4, 9, 16, 25]
+# print(type(squares))
+
+
+# def countdown(n):
+#     while n > 0:
+#         yield n
+#         n += 1
+
+# Using the generator
+# for i in countdown(5):
+#     print(i)
+
+# def my_generator():
+#     for i in range(500000):
+#         yield i
+# gen = my_generator()
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
