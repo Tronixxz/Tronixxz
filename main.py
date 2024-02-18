@@ -154,9 +154,9 @@
 #     print(i)
 
 
-# fruits = ["apple", "banana", "cherry", "date"]
-# for i in fruits:
-#     print(i)
+fruits = ["apple", "banana", "cherry", "date"]
+for i in fruits:
+    print(i)
 
 
 # my_name = "Haseeb"
