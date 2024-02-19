@@ -100,16 +100,22 @@
 # Break and continue.....................................................................////////////////////...............]
 
 
-
-
-# Make a calculate..................................IMPORTANT
+# Make a calculate.................................//////////////////////////////////////////////////.IMPORTANT
 
 
 # equation = input("Enter a equation:")
 # print(eval(equation))
 
 
-# Make a calemder 
+# Make a calemder/////////////////////////////////////////////////////////////////////////////////////////////////
 # import calendar
 
 # print(calendar.calendar(2023))
+
+# Q = input("Please Enter your name:")
+# name = "haseeb"
+# while (Q != name):
+#     print("sorry you are wrong")
+#     Q = input("Please Enter your name:")
+# else:
+#     print("right")

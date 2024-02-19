@@ -37,14 +37,43 @@
 
 # Python generator example///////////////////////////////////////////////////
 
-def gen_demo():
-    yield "first statement"
-    yield "second statement"
-    yield "third statement"
+# def gen_demo():
+#     yield "first statement"
+#     yield "second statement"
+#     yield "third statement"
 
 
-gen = gen_demo()
-print(next(gen))
-print(next(gen))
-print(next(gen))
+# gen = gen_demo()
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+
+# Range Function Using Generators//////////////////////////////////////////////
+
+ 
+# def mera_range(start, end):
+#     for i in range(start, end):
+#         yield i
+
+# gen = mera_range(15, 26)
+# for i in gen:
+#     print(i)
+
+# Generator Expression//////////////////////////////////////////////////////
+# import sys
+# gen = (i**2 for i in range(1,10000))
+# # for i in gen:
+# #     print(i)
+# size = sys.getsizeof(gen)
+# print(size)
+
+# Representing Infinite Stream/////////////////////////////////////////////
+
+# def all_even():
+#     n=0
+#     while True:
+#         yield n
+#         n +=2
+#         even_num_gen = all_even()
+#         next(even_num_gen)
 
